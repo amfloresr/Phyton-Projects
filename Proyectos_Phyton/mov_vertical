@@ -1,0 +1,8 @@
+def mov_vertical():
+    result = posinicial + velinicial*(tiempo) + aceleracion*tiempo**2/2
+    return(result)
+posinicial = float(input("Introduzca el valor de posicion inicial"))
+velinicial = float(input("Introduzca el valor de la velocidad inicial"))
+tiempo = float(input("Introduzca el valor del tiempo"))
+aceleracion = -9.8
+mov_vertical()
