@@ -1,0 +1,7 @@
+def mov_horizontal():
+    result = posinicial + velinicial *(tiempo)
+    return(result)
+posinicial = float(input("Introduzca el valor de posicion inicial"))
+velinicial = float(input("Introduzca el valor de la velocidad inicial"))
+tiempo = float(input("Introduzca el valor del tiempo"))
+mov_horizontal()
