@@ -9,7 +9,7 @@ import sys
 from pygame.locals import*
 
 FPS = 15 #Velocidad general del juego.
-WINDOWWIDTH = 640 #Tamaño de la altura.
+WINDOWWIDTH = 640 
 WINDOWHEIGHT = 480 
 REVEALSPEED = 8 #velocidad de las cajas deslizándose.
 BOXSIZE = 40 #Tamaño del cuadro, ancho y alto.
