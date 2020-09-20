@@ -55,7 +55,7 @@ def main():
     FPSCLOCK = pygame.time.Clock()
     DISPLAYSURF =pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT)) 
     mousex = 0#utilizado para almacenar la coordenada x
-    mousey = 0#utilizado para almacenar la coordenada x
+    mousey = 0#utilizado para almacenar la coordenada y
     pygame.display.set_caption("AF VideoGame")
 
     mainBoard = getRandomizedBoard()
