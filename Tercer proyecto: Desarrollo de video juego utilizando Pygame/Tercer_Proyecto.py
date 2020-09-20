@@ -8,29 +8,29 @@ import random
 import sys
 from pygame.locals import*
 
-FPS =           15 #Velocidad general del juego.
-WINDOWWIDTH =  640 #Tamaño de la altura.
+FPS = 15 #Velocidad general del juego.
+WINDOWWIDTH = 640 #Tamaño de la altura.
 WINDOWHEIGHT = 480 
-REVEALSPEED =    8 #velocidad de las cajas deslizándose.
-BOXSIZE=        40 #Tamaño del cuadro, ancho y alto.
-GAPSIZE =       10 #Espacio entre las cajas
-BOARDWIDTH =    10 #Número de columnas
-BOARDHEIGHT =    7 #Número de filas de los iconos
+REVEALSPEED = 8 #velocidad de las cajas deslizándose.
+BOXSIZE = 40 #Tamaño del cuadro, ancho y alto.
+GAPSIZE = 10 #Espacio entre las cajas
+BOARDWIDTH = 10 #Número de columnas
+BOARDHEIGHT = 7 #Número de filas de los iconos
 assert (BOARDWIDTH * BOARDHEIGHT) % 2==0, "El tablero debe tener un número variable de casillas para que los pares coincidan."
 XMARGIN = int((WINDOWWIDTH - (BOARDWIDTH * (BOXSIZE + GAPSIZE))) / 2)
 YMARGIN = int((WINDOWHEIGHT - (BOARDHEIGHT * (BOXSIZE + GAPSIZE))) / 2)
 
                                          
-GRAY     =   (100,     100,    100)
-NAVYBLUE =   ( 60,      60,    100)
-WHITE    =   (125,     255,    255)
-RED      =   (255,       0,      0)
-GREEN    =   (  0,     255,      0)
-BLUE     =   (  0,       0,    255)
-YELLOW   =   (255,     255,      0)
-ORANGE   =   (255,     128,      0)
-PURPLE   =   (255,       0,    255)
-CYAN     =   (  0,     255,    255)
+GRAY = (100, 100, 100)
+NAVYBLUE = (60, 60, 100)
+WHITE = (125, 25, 255)
+RED   = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE  = (0, 0, 255)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 128, 0)
+PURPLE = (255, 0, 255)
+CYAN = (0, 255, 255)
 
 BGCOLOR= NAVYBLUE
 LIGHTBGCOLOR = GRAY
